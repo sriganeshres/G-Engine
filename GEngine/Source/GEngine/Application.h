@@ -1,5 +1,8 @@
 #pragma once
+
 #include"Core.h"
+#include"Event\Event.h"
+
 namespace GEngine {
 	class GENGINE_API Application
 	{

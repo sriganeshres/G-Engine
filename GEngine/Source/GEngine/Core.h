@@ -8,3 +8,5 @@
 #else
 	#error GE is only for windows
 #endif
+
+#define BIT(X) (1<<X)

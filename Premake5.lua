@@ -25,13 +25,14 @@ project "GEngine"
 
 	includedirs
 	{
+		"%{prj.name}/Source",
 		"%{prj.name}/Vendor/spdlog/include"
 	}
 
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "on"
-		systemversion "10.0.22000.0"
+		systemversion "latest"
 
 		defines
 		{
@@ -82,7 +83,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "on"
-		systemversion "10.0.22000.0"
+		systemversion "latest"
 
 		defines
 		{
