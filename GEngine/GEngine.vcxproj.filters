@@ -19,13 +19,22 @@
     <ClInclude Include="Source\GEngine\EntryPoint.h">
       <Filter>GEngine</Filter>
     </ClInclude>
+    <ClInclude Include="Source\GEngine\Event\ApplicationEvent.h">
+      <Filter>GEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GEngine\Event\Event.h">
+      <Filter>GEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GEngine\Event\KeyEvent.h">
+      <Filter>GEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GEngine\Event\MouseEvent.h">
+      <Filter>GEngine\Event</Filter>
+    </ClInclude>
     <ClInclude Include="Source\GEngine\Log.h">
       <Filter>GEngine</Filter>
     </ClInclude>
-    <ClInclude Include="Source\GEngine\Event\Event.h" />
-    <ClInclude Include="Source\GEngine\Event\ApplicationEvent.h" />
-    <ClInclude Include="Source\GEngine\Event\KeyEvent.h" />
-    <ClInclude Include="Source\GEngine\Event\MouseEvent.h" />
+    <ClInclude Include="Source\Gepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\GEngine\Application.cpp">
@@ -34,5 +43,6 @@
     <ClCompile Include="Source\GEngine\Log.cpp">
       <Filter>GEngine</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Gepch.cpp" />
   </ItemGroup>
 </Project>

@@ -63,6 +63,9 @@ project "Sandbox"
 	targetdir("bin/" .. outputdir .. "/%{prj.name}")
 	objdir("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "Gepch.h"
+	pchsource "GEngine/Source/Gepch.cpp"
+
 	files
 	{
 		"%{prj.name}/Source/**.h",
